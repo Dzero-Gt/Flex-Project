@@ -144,13 +144,61 @@ a {
     font-style: italic;
     font-weight: lighter;
     padding-top: 100px;
-    width: 1000px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1000px;
+    min-width: 400px;
 }
 
 .quote-source {
     font-weight: bold;
-    width: 100px;
+    width: 200px;
+    margin-right: 130px;
+    margin-left: auto;
+    padding-bottom: 100px;
 }
 
-.quote-alignment {
+
+.band.four {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.action-box {
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px 100px 50px 100px;
+    justify-content: space-between;
+    gap: 100px;
+    width: 1100px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    align-self: flex-end;
+}
+
+.sign-up-two {
+    color: #F9FAF8;
+    background-color: #3882f6;
+    border-color: #F9FAF8;
+    border-radius: 12px;
+    height: 40px;
+    width: 120px;
+    align-self: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+}
+
+.action-4 {
+    margin-top: 4px;
 }
